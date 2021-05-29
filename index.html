@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tip Calculator</h1>
+        <input type="number" id="inputfield" placeholder="Enter Total Bill ..">
+        <select name="How much did you liked the service" id="serviceLevel">
+            <option value="0">How much did you liked the service ?</option>
+            <option value="1">Not much</option>
+            <option value="2">Good</option>
+            <option value="3">It was Amazing</option>
+        </select>
+        <input type="number" id="people" placeholder="Enter Number of people"> 
+        
+        <div class="answ">
+            <button id="btn">Calculate</button>
+            <input type="text" placeholder="Total Tip" id="ans" disabled>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
